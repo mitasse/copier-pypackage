@@ -1,0 +1,24 @@
+full_name:
+  type: str
+  help: Full name
+  default: Jane Doe
+
+email:
+  type: str
+  help: Email
+  default: "{{ full_name|lower|replace(' ', '.') }}@example.com"
+
+project_name:
+  type: str
+  help: Project name
+  default: "my-project"
+
+project_slug:
+  type: str
+  help: Project slug
+  default: "{{ project_name|lower|replace('-', '_')|replace(' ', '_') }}"
+
+github_username:
+  type: str
+  help: Github Username
+  default: "janedoe"

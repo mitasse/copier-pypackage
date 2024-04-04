@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+    - id: ruff
+      name: ruff
+      entry: ruff check --force-exclude
+      language: python
+      types_or: [python, pyi]
+
+    - id: ruff-format
+      name: ruff-format
+      entry: ruff format --force-exclude
+      language: python
+      types_or: [python, pyi]

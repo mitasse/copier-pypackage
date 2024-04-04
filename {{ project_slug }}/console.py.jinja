@@ -1,0 +1,23 @@
+"""Command line interface for {{ project_name }}.
+
+See click documentation at https://click.palletsprojects.com/
+
+"""
+
+import click
+
+
+@click.group()
+@click.version_option()
+def run() -> None:
+    """Command line interface for {{ project_name }}."""
+
+
+@run.command()
+def hello() -> None:
+    """Command to check {{ project_name }} is correctly installed."""
+    click.echo("Welcome to {{ project_name }}!")
+
+
+if __name__ == "__main__":
+    run(prog_name="{{ project_name }}")  # pragma: no cover

@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "{{ project_name }}"
+version = "0.1.0"
+description = "{{ project_name }} - A Python package that provides ..."
+license = "MIT"
+authors = [
+    "{{ full_name }} <{{ email }}>"
+]
+readme = "README.md"
+repository = "https://github.com/{{ github_username }}/{{ project_name }}"
+keywords = ["python", "copier-pypackage"]
+packages = [
+    { include = "{{ project_slug }}" },
+]
+exclude = ["README.md", "LICENSE", "CODE_OF_CONDUCT.md"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+click = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+copier = "*"
+pytest = "*"
+pytest-sugar = "*"
+pytest-cov = "*"
+pre-commit = "*"
+ruff = "*"
+tox = "*"
+mypy = "*"
+
+
+[tool.poetry.scripts]
+{{ project_name }} = '{{ project_slug }}.console:run'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
