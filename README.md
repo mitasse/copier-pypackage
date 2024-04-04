@@ -86,7 +86,7 @@ poetry install
 Test that the installation worked:
 
 ```commandline
-my_project hello
+my-project hello
 ```
 
 `Welcome to my-project!` should appear in a new tab in your console!
