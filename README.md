@@ -1,6 +1,6 @@
 # Welcome to Quickstart - Python 👋
 
-[![python](https://img.shields.io/badge/python-%3E%3D3.10-blue)](https://www.python.org)
+[![python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
