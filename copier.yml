@@ -1,16 +1,3 @@
-_exclude:
-    - "copier.yaml"
-    - "copier.yml"
-    - "~*"
-    - "*.py[co]"
-    - "__pycache__"
-    - ".git"
-    - ".DS_Store"
-    - ".svn"
-    - "README.md"
-    - "LICENSE"
-    - "CODE_OF_CONDUCT.md"
-
 full_name:
   type: str
   help: Full name
