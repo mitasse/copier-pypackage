@@ -49,8 +49,8 @@ The template supports Python 3.9 or newer.
 
 Before you get started, you're going to need a few things:
 
-- Install Python 3.9 or newer
-- Install Git 2.7 or newer
+- Install [Python](https://www.python.org/) 3.9 or newer
+- Install [Git](https://git-scm.com/) 2.7 or newer
 - Install [Copier](https://copier.readthedocs.io/en/stable/)
 - Install [Poetry](https://python-poetry.org/)
 
