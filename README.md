@@ -1,6 +1,6 @@
 # Welcome to Copier-pypackage 👋
 
-[![python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org)
+[![python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
@@ -22,9 +22,8 @@ Copier-pypackage lets you create packages in minutes, not weeks. Have some doubt
     - Security audit with [Bandit]
 - Tests run and coverage with [pytest] and [pytest-cov], respectively
 - Ready-to-use command-line interface with [Click]
-- CDTNG compliant for Giseh
 
-The template supports Python 3.8 or newer.
+The template supports Python 3.9 or newer.
 
 [bandit]: https://github.com/PyCQA/bandit
 
@@ -50,7 +49,7 @@ The template supports Python 3.8 or newer.
 
 Before you get started, you're going to need a few things:
 
-- Install Python 3.8 or newer
+- Install Python 3.9 or newer
 - Install Git 2.7 or newer
 - Install [Copier](https://copier.readthedocs.io/en/stable/)
 - Install [Poetry](https://python-poetry.org/)
