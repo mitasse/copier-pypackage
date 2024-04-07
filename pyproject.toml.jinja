@@ -10,14 +10,12 @@ readme = "README.md"
 repository = "https://github.com/{{ github_username }}/{{ project_name }}"
 keywords = ["python", "copier-pypackage"]
 packages = [
-    { include = "{{ project_slug }}" },
+    { include = "{{ project_slug }}", from = "src" },
 ]
-
 
 [tool.poetry.dependencies]
 python = ">=3.9"
 click = "*"
-
 
 [tool.poetry.group.dev.dependencies]
 copier = "*"
@@ -29,10 +27,11 @@ ruff = "*"
 tox = "*"
 mypy = "*"
 
-
 [tool.poetry.scripts]
 {{ project_name }} = '{{ project_slug }}.console:run'
 
+[tool.pytest.ini_options]
+pythonpath = ["src"]
 
 [build-system]
 requires = ["poetry-core"]
